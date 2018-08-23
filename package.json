@@ -51,7 +51,7 @@
   "scripts": {
     "test": "gulp travis",
     "publish-please": "publish-please",
-    "e2etest": "testcafe puppeteer:no_sandbox YOUR TEST FILE PATH --reporter html",
+    "e2etest": "testcafe puppeteer:no_sandbox test/*.js --reporter html",
     "prepublish": "publish-please guard"
   },
   "dependencies": {
